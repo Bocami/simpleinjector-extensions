@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>SimpleInjector (Domain Event Registration Extensions)</title>
+    <authors>Jonatan Pedersen</authors>
+    <owners>Jonatan Pedersen</owners>
+    <licenseUrl>https://github.com/Bocami/simpleinjector-extensions/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Bocami/simpleinjector-extensions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SimpleInjector (Domain Event Registration Extensions)</description>
+    <copyright>Copyright 2014</copyright>
+    <tags>Domain Driven Design</tags>
+  </metadata>
+</package>

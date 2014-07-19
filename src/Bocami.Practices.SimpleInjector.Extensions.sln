@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bocami.Practices.SimpleInjector.Extensions.Command", "Bocami.Practices.SimpleInjector.Extensions.Command\Bocami.Practices.SimpleInjector.Extensions.Command.csproj", "{68D2E0EC-B931-4D25-8A46-B0D2C22A7085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bocami.Practices.SimpleInjector.Extensions.DomainEvent", "Bocami.Practices.SimpleInjector.Extensions.DomainEvent\Bocami.Practices.SimpleInjector.Extensions.DomainEvent.csproj", "{899044AA-87BA-475A-BB13-AA35CA4E76C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bocami.Practices.SimpleInjector.Extensions.Query", "Bocami.Practices.SimpleInjector.Extensions.Query\Bocami.Practices.SimpleInjector.Extensions.Query.csproj", "{6B719DF0-EF2A-4962-8850-B2F89B30C7E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bocami.Practices.SimpleInjector.Extensions.QueryValidation", "Bocami.Practices.SimpleInjector.Extensions.QueryValidation\Bocami.Practices.SimpleInjector.Extensions.QueryValidation.csproj", "{9CCC41D7-5B83-40AC-BC6E-43C3076BA9CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bocami.Practices.SimpleInjector.Extensions.QueryAuthorization", "Bocami.Practices.SimpleInjector.Extensions.QueryAuthorization\Bocami.Practices.SimpleInjector.Extensions.QueryAuthorization.csproj", "{2FBB0E07-291B-42D7-95D7-4133824BB381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bocami.Practices.SimpleInjector.Extensions.CommandValidation", "Bocami.Practices.SimpleInjector.Extensions.CommandValidation\Bocami.Practices.SimpleInjector.Extensions.CommandValidation.csproj", "{7DD9D165-9C1E-4F06-BF01-3398B214CB07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bocami.Practices.SimpleInjector.Extensions.CommandAuthorization", "Bocami.Practices.SimpleInjector.Extensions.CommandAuthorization\Bocami.Practices.SimpleInjector.Extensions.CommandAuthorization.csproj", "{44B4A8FB-D911-49DC-B143-71C44E892CAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68D2E0EC-B931-4D25-8A46-B0D2C22A7085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D2E0EC-B931-4D25-8A46-B0D2C22A7085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D2E0EC-B931-4D25-8A46-B0D2C22A7085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D2E0EC-B931-4D25-8A46-B0D2C22A7085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899044AA-87BA-475A-BB13-AA35CA4E76C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899044AA-87BA-475A-BB13-AA35CA4E76C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899044AA-87BA-475A-BB13-AA35CA4E76C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899044AA-87BA-475A-BB13-AA35CA4E76C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B719DF0-EF2A-4962-8850-B2F89B30C7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B719DF0-EF2A-4962-8850-B2F89B30C7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B719DF0-EF2A-4962-8850-B2F89B30C7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B719DF0-EF2A-4962-8850-B2F89B30C7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCC41D7-5B83-40AC-BC6E-43C3076BA9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCC41D7-5B83-40AC-BC6E-43C3076BA9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCC41D7-5B83-40AC-BC6E-43C3076BA9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCC41D7-5B83-40AC-BC6E-43C3076BA9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FBB0E07-291B-42D7-95D7-4133824BB381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBB0E07-291B-42D7-95D7-4133824BB381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FBB0E07-291B-42D7-95D7-4133824BB381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FBB0E07-291B-42D7-95D7-4133824BB381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD9D165-9C1E-4F06-BF01-3398B214CB07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD9D165-9C1E-4F06-BF01-3398B214CB07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD9D165-9C1E-4F06-BF01-3398B214CB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD9D165-9C1E-4F06-BF01-3398B214CB07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B4A8FB-D911-49DC-B143-71C44E892CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B4A8FB-D911-49DC-B143-71C44E892CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B4A8FB-D911-49DC-B143-71C44E892CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B4A8FB-D911-49DC-B143-71C44E892CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
