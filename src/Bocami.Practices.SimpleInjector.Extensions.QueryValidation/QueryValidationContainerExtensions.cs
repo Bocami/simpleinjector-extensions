@@ -14,7 +14,7 @@ namespace Bocami.Practices.SimpleInjector.Extensions
             container.RegisterManyForOpenGeneric(typeof(IQueryValidator<>), assemblies);
         }
 
-        public static void RegisterAuthorizationQueryHandlerDecorator(this Container container, params Assembly[] assemblies)
+        public static void RegisterValidationQueryHandlerDecorator(this Container container)
         {
             container.RegisterDecorator(typeof(IQueryHandler<,>), typeof(ValidationQueryHandlerDecorator<,>));
         }
