@@ -1,20 +1,18 @@
 SimpleInjector Extensions
 =======
 
-Extensions of SimpleInjector for Bocami.Practices
+Bocami.Practices extension libraries for SimpleInjector. Provides Registration extension methods on SimpleInjector.Container for Commands, Queries, Authorization and Validation.
 
 ## Install
 
 ```
-Install-Package Bocami.Practices.Command.Transactions -Source https://www.myget.org/F/bocami/
+Install-Package Bocami.Practices.SimpleInjector.Extensions.Command -Source https://www.myget.org/F/bocami/
+Install-Package Bocami.Practices.SimpleInjector.Extensions.CommandAuthorization -Source https://www.myget.org/F/bocami/
+Install-Package Bocami.Practices.SimpleInjector.Extensions.CommandValidation -Source https://www.myget.org/F/bocami/
+Install-Package Bocami.Practices.SimpleInjector.Extensions.Query -Source https://www.myget.org/F/bocami/
+Install-Package Bocami.Practices.SimpleInjector.Extensions.QueryAuthorization -Source https://www.myget.org/F/bocami/
+Install-Package Bocami.Practices.SimpleInjector.Extensions.QueryValidation -Source https://www.myget.org/F/bocami/
 ```
-
-Bocami.Practices.SimpleInjector.Extensions.Command
-Bocami.Practices.SimpleInjector.Extensions.CommandAuthorization
-Bocami.Practices.SimpleInjector.Extensions.CommandValidation
-Bocami.Practices.SimpleInjector.Extensions.Query
-Bocami.Practices.SimpleInjector.Extensions.QueryAuthorization
-Bocami.Practices.SimpleInjector.Extensions.QueryValidation
 
 ## Dependencies
 
