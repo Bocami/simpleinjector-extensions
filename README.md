@@ -22,10 +22,10 @@ Bocami.Practices.SimpleInjector.Extensions.QueryValidation
 * [Bocami.Practices.Command (≥ 1.0.0)](https://github.com/Bocami/command)
 * [Bocami.Practices.Command.Authorization (≥ 1.0.0)](https://github.com/Bocami/command-authorization)
 * [Bocami.Practices.Command.Validation (≥ 1.0.0)](https://github.com/Bocami/command-validation)
+* [Bocami.Practices.Decorator (≥ 1.0.0)](https://github.com/Bocami/decorator)
 * [Bocami.Practices.Query (≥ 1.0.0)](https://github.com/Bocami/query)
 * [Bocami.Practices.Query.Authorization (≥ 1.0.0)](https://github.com/Bocami/query-authorization)
 * [Bocami.Practices.Query.Validation (≥ 1.0.0)](https://github.com/Bocami/query-validation)
-* [Bocami.Practices.Decorator (≥ 1.0.0)](https://github.com/Bocami/decorator)
 * [Bocami.Practices.Validation (≥ 1.0.0)](https://github.com/Bocami/validation)
 
 ## Licence
